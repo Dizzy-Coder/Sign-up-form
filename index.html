@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="left">
+        <div class="heading">
+            <img src="photos/odin-lined.png">
+            <p>Backstreet Music</p>
+
+        </div>
+        <img src="photos/img.jpg" alt="room full of musical instruments">
+        <p class="credit">Photo by <a href="https://unsplash.com/@john_matychuk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">John Matychuk</a> on <a href="https://unsplash.com/photos/music-room-with-lights-turned-on-gUK3lA3K7Yo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+        </p>
+    </div>
+    <div class="acc">
+        <p>Backstreet Music is a vibrant club for music enthusiasts, offering a creative space to learn, share, and celebrate music. From jamming sessions to live performances, we bring together passionate musicians and music lovers. Whether you're a beginner or a pro, Backstreet Music is where melodies meet memories!</p>
+        <div class="form">
+            <p class="form-title">Let's Do this!</p>
+            <form action="#" method="post">
+                <div class="row">
+                    <label for="first-name">First Name</label>
+                    <input id="first-name" name="first-name" type="text">
+                </div>
+                <div class="row">
+                    <label for="last-name">Last Name</label>
+                <input id="last-name" name="last-name" type="text">
+                </div>
+                <div class="row">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email">
+                </div>
+                <div class="row">
+                    <label for="phone">Phone Number</label>
+                    <input id="phone" name="phone" type="text" pattern="01[0-9]{9}">
+                </div>
+                <div class="row">
+                    <label for="pass">Password</label>
+                    <input id="pass" name="pass" type="password" minlength="8">
+                </div>
+                <div class="row">
+                    <label for="confirm-pass">Confirm Password</label>
+                    <input id="confirm-pass" name="pass" type="password" minlength="8">
+                </div>
+            </form>
+        </div>
+        <button>Create Account</button>
+        <p>Already have an account? <a href="#">Log in</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

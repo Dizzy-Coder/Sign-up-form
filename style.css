@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "norse bold";
+    src: url("fonts/Norse-Bold.otf");
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+a{
+    color: white;
+}
+.left{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 100%;
+}
+.credit{
+    position: absolute;
+    bottom: 10px;
+    font-size: 13px;
+    color: white;
+}
+.heading{
+    padding: 10px;
+    position: absolute;
+    top: 45px;
+    font-size: 40px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.412);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.heading img{
+    height: 50px;
+    width: 47px;
+}
+.heading p{
+    font-family: 'norse bold';
+    padding-top: 4px;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    margin: 10px 0px;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.acc{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.acc a{
+    color: blue;
+    text-decoration: none;
+}
+.acc p{
+    font-size: 18px;
+}
+input{
+    font-size: 13px;
+    margin-top: 5px;
+    border: 1px black solid;
+    border-radius: 3px;
+    height: 25px;
+    padding: 2px 5px;
+}
+input:focus{
+    border: 1px rgb(87, 0, 0) solid;
+    border-radius: 3px;
+}
+input:invalid{
+    border: 1.5px rgb(174, 0, 0) solid;
+    border-radius: 3px;
+}
+button{
+    height: 28px;
+    width: 120px;
+    margin-bottom: 5px;
+    background-color: rgb(85, 1, 1);
+    border-radius: 4px;
+    color: white;
+}
+button:hover{
+    background-color: rgb(255, 230, 230);
+    color: rgb(85, 1, 1);
+}
+.form{
+    padding: 20px 0px;
+}
